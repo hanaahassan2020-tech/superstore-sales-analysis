@@ -1,41 +1,85 @@
-# 📊 Superstore Sales Analysis
+📊 Superstore Sales Analysis
 
-A data analysis project examining profitability and sales performance across a retail superstore's product categories — uncovering pricing and discount patterns that quietly erode profit. Insights are directly applicable to small e-commerce businesses managing discounts and product mix on tight margins.
+Executive Summary
 
-## Business Questions
-- Which product categories generate the most revenue vs. the most profit?
-- How does discounting affect profitability?
-- Which products or sub-categories are consistently unprofitable?
+This project analyzes retail sales data from a Superstore to evaluate category profitability, identify the impact of discounting on profit margins, and uncover opportunities for improving business performance. The analysis demonstrates how aggressive discount strategies can increase revenue while simultaneously reducing profitability, providing actionable insights for data-driven business decisions.
 
-## Dataset
-- **Source:** Superstore Sales dataset (Kaggle)
-- ~9,994 orders across Furniture, Office Supplies, and Technology
-- Key columns: Order Date, Category, Sub-Category, Sales, Discount, Profit, Region, Customer Segment
+Business Questions
 
-## Tools
-Python · pandas · matplotlib · seaborn · Jupyter Notebook
+* Which product categories generate the most revenue versus the most profit?
+* How does discounting affect profitability?
+* Which products or sub-categories are consistently unprofitable?
+* Which business areas require pricing or discount strategy adjustments?
 
-## Key Findings
-- Furniture operates at only **~2.5% profit margin** — among the lowest of all categories
-- **41% of individual products** are sold at a loss
-- Discounts above **30%** consistently turn profitable orders into losses
+Dataset
 
-## Repository Contents
-| File | Description |
-|---|---|
-| `superstore- notebook.ipynb` | Full analysis: data cleaning, EDA, profitability breakdown |
-| `superstore analysis report.pdf` | Summary report with charts and key takeaways |
-| `sample-superstore.csv.csv` | Raw dataset used in the analysis |
+* Source: Superstore Sales Dataset (Kaggle)
+* Approximately 9,994 orders across Furniture, Office Supplies, and Technology categories
+* Key variables include:
+    * Order Date
+    * Category
+    * Sub-Category
+    * Sales
+    * Discount
+    * Profit
+    * Region
+    * Customer Segment
 
-## How to Run
-1. Clone or download this repository
-2. Open `superstore- notebook.ipynb` in Jupyter Notebook
-3. Run all cells — the dataset is already included in the repo
+Tools Used
 
-## Live Version
-📎 [View on Kaggle](https://www.kaggle.com/code/hanaahassanbakhit/superstore-sales-analysis)
+* Python
+* Pandas
+* Matplotlib
+* Seaborn
+* Jupyter Notebook
+* GitHub
 
-## Author
-**Hanaa** — Data Analyst | Founder, Byanatk
-🔗- LinkedIn: https://www.linkedin.com/in/hanaadata-analyst
-- Kaggle: https://www.kaggle.com/hanaahassanbakhit
+Key Findings
+
+* Furniture operates at approximately 2.5% profit margin, making it one of the least profitable categories.
+* Nearly 41% of individual products are sold at a loss.
+* Discounts above 30% consistently reduce profitability and frequently turn profitable orders into losses.
+* Revenue growth does not always translate into profit growth, highlighting the importance of margin analysis.
+
+Business Recommendations
+
+* Review discount policies for products receiving discounts above 30%.
+* Prioritize high-margin product categories when allocating marketing budgets.
+* Monitor loss-making products and reassess pricing strategies.
+* Focus on profitability metrics alongside sales growth when making business decisions.
+* Implement regular performance reviews for underperforming sub-categories.
+
+Repository Contents
+
+File	Description
+superstore-notebook.ipynb	Complete analysis including data cleaning, exploratory data analysis, and profitability investigation
+superstore analysis report.pdf	Executive summary report with charts and key insights
+sample-superstore.csv	Dataset used for the analysis
+
+How to Run
+
+1. Clone or download this repository.
+2. Open superstore-notebook.ipynb using Jupyter Notebook.
+3. Install required libraries:
+    pip install pandas matplotlib seaborn
+
+
+Live Version
+
+📎 Kaggle Notebook:
+
+https://www.kaggle.com/code/hanaahassanbakhit/superstore-sales-analysis
+
+Author
+
+Hanaa Hassan
+
+Data Analyst | E-commerce & Sales Analytics
+
+🔗 LinkedIn:
+
+https://www.linkedin.com/in/hanaadata-analyst
+
+🔗 GitHub:
+
+https://github.com/hanaahassan2020-tech
